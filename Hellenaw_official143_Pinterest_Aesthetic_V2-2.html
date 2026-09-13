@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hellenaw_official143 · Pinterest</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=DM+Sans:wght@400;500;600&family=Allura&display=swap');
+:root{--bg:#fbfaf9;--ink:#171414;--soft:#eceae7;--brown:#5a3d31;--pink:#e9aaa6;--line:#ddd9d5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"DM Sans",sans-serif}
+a{text-decoration:none;color:inherit}.top{height:4px;background:#191515}
+.nav{height:72px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 5%;position:sticky;top:0;z-index:20;border-bottom:1px solid #eee}
+.brand{font-family:"Playfair Display",serif;font-size:23px}.brand span{font-family:Allura;font-size:31px;margin-left:5px}
+.navlinks{display:flex;gap:25px;font-size:12px}.navlinks a:hover{text-decoration:underline}
+.search{width:230px;background:#f1efed;border-radius:28px;padding:12px 17px;color:#8b8581;font-size:11px}
+.hero{max-width:1120px;margin:auto;text-align:center;padding:54px 20px 28px}
+.avatar{width:94px;height:94px;border-radius:50%;margin:auto;background:radial-gradient(circle at 58% 45%,#6e5d54 0 10%,#2c2422 11% 26%,#a58e83 27% 48%,#e8e3df 49% 100%);box-shadow:0 0 0 7px #f3f1ef}
+.hero h1{font:600 38px "Playfair Display";margin:24px 0 4px}.handle{color:#807873;font-size:12px}.stats{font-size:12px;margin:18px 0}.stats b{font-weight:600}
+.bio{font:500 14px "Playfair Display";line-height:1.8}.subbio{color:#756c68;font-size:12px;margin-top:6px}.actions{margin:22px 0;display:flex;justify-content:center;gap:10px}.btn{padding:12px 22px;border-radius:25px;font-size:12px;font-weight:600}.primary{background:var(--pink)}.secondary{background:#e9e7e4}
+.tabs{display:flex;justify-content:center;gap:55px;margin-top:35px;font-weight:600}.tabs a{padding:12px 8px}.tabs .active{border-bottom:3px solid #171414}
+.profileline{max-width:1180px;margin:10px auto 0;padding:0 22px;display:flex;justify-content:space-between;align-items:center}.profileline h2{font:500 28px "Playfair Display";margin:0}.profileline span{font-family:Allura;font-size:25px;color:#765b4e}
+.tools{max-width:1180px;margin:22px auto 18px;padding:0 22px;display:flex;gap:10px}.pinsearch{flex:1;border:1px solid #bbb6b1;border-radius:24px;padding:14px 18px;background:#fff;color:#8b8581;font-size:12px}.filter,.add{width:48px;border:1px solid #bbb6b1;background:white;border-radius:50%;font-size:18px}
+.grid{max-width:1180px;margin:auto;padding:0 10px 70px;columns:5 160px;column-gap:10px}
+.card{break-inside:avoid;margin-bottom:10px;border-radius:16px;overflow:hidden;background:#eee;position:relative;cursor:pointer}.art{display:flex;align-items:center;justify-content:center;text-align:center;min-height:170px;padding:22px}
+.card:nth-child(2n) .art{min-height:230px}.card:nth-child(3n) .art{min-height:200px}.card:nth-child(5n) .art{min-height:270px}
+.art h3{font:500 28px "Playfair Display";margin:0}.art small{display:block;font-size:8px;letter-spacing:2px;margin-top:8px;text-transform:uppercase}
+.c1{background:linear-gradient(145deg,#181313,#765346);color:white}.c2{background:linear-gradient(145deg,#f1eee9,#cbb7a8)}.c3{background:linear-gradient(145deg,#d8e5f2,#87a7c6)}.c4{background:linear-gradient(145deg,#e9d9ce,#9c7763)}.c5{background:linear-gradient(145deg,#f7efea,#b99a89)}.c6{background:linear-gradient(145deg,#38251f,#9a6d59);color:white}.c7{background:linear-gradient(145deg,#f0e7df,#d0b29e)}.c8{background:linear-gradient(145deg,#ded7d1,#6e584c)}.c9{background:linear-gradient(145deg,#f7f4f1,#b7aaa1)}.c10{background:linear-gradient(145deg,#e5d3c8,#806053)}
+.label{background:#fff;padding:11px 12px;font-size:11px}.label b{display:block;margin-bottom:4px}.label span{color:#817873}
+.collection{max-width:1120px;margin:0 auto 75px;padding:0 22px}.collectionbox{background:#231b18;color:#f5ede8;border-radius:28px;padding:45px;display:grid;grid-template-columns:1fr 1fr;gap:35px}.collectionbox h2{font:500 45px "Playfair Display";margin:0 0 10px}.collectionbox p{color:#cdbcb3;line-height:1.8;font-size:12px}.minirow{display:grid;grid-template-columns:1fr 1fr;gap:10px}.mini{border:1px solid #66544c;border-radius:18px;padding:20px;min-height:120px;background:#30231e}.mini strong{font:22px "Playfair Display"}.mini small{display:block;margin-top:8px;color:#cbb9af}
+footer{background:#fff;border-top:1px solid var(--line);padding:32px 5%;display:flex;justify-content:space-between;color:#766b66;font-size:11px}
+@media(max-width:800px){.navlinks{display:none}.search{width:130px}.grid{columns:3 130px}.collectionbox{grid-template-columns:1fr;padding:30px}.tabs{gap:30px}}
+@media(max-width:500px){.nav{padding:0 15px}.brand{font-size:18px}.search{display:none}.hero{padding-top:35px}.hero h1{font-size:31px}.grid{columns:2 125px;padding-left:5px;padding-right:5px}.profileline{padding:0 15px}.tools{padding:0 15px}.collection{padding:0 15px}.minirow{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="top"></div>
+<header class="nav">
+  <a class="brand" href="#home">Hellenaw_official143 <span>♡</span></a>
+  <div class="navlinks"><a href="#home">Home</a><a href="#created">Created</a><a href="#saved">Saved</a><a href="#about">About</a></div>
+  <div class="search">⌕ &nbsp; Search inspiration...</div>
+</header>
+
+<section class="hero" id="home">
+  <div class="avatar"></div>
+  <h1>• Hellenaw ♈</h1>
+  <div class="handle">Hellenaw_Official143</div>
+  <div class="stats"><b>11k followers</b> · <b>6 following</b> · <b>10m+ monthly views</b></div>
+  <div class="bio">• Hellenaw || Digital Creator 🎬</div>
+  <div class="subbio">• Photo & Video Editor || Aesthetic Content •</div>
+  <div class="actions"><a class="btn primary" href="https://www.pinterest.com/hellenaw_official143/" target="_blank">Follow</a><a class="btn secondary" href="#created">Explore profile</a></div>
+  <div class="tabs"><a class="active" href="#created">Created</a><a href="#saved">Saved</a></div>
+</section>
+
+<section id="created">
+<div class="profileline"><h2>Created</h2><span>my little gallery ୨୧</span></div>
+<div class="tools"><div class="pinsearch">⌕ &nbsp; Search your Pins</div><button class="filter">☷</button><button class="add">+</button></div>
+<div class="grid">
+  <article class="card"><div class="art c1"><div><h3>Hellenaw Editz 🌸</h3><small>2668 pins · mood</small></div></div><div class="label"><b>Hellenaw Editz 🌸</b><span>2 sections · 2w</span></div></article>
+  <article class="card"><div class="art c2"><div><h3>Hellenaw ♡</h3><small>aesthetic cover</small></div></div><div class="label"><b>Aesthetic Fb cover</b><span>12 Pins · 1d</span></div></article>
+  <article class="card"><div class="art c3"><div><h3>Blue Flower</h3><small>soft stickers</small></div></div><div class="label"><b>Aesthetic Stickers</b><span>pretty collection</span></div></article>
+  <article class="card"><div class="art c4"><div><h3>“you are my everything”</h3><small>Facebook cover</small></div></div><div class="label"><b>Facebook Cover 🌸</b><span>saved mood</span></div></article>
+  <article class="card"><div class="art c5"><div><h3>Dreamy Girl</h3><small>photo edit</small></div></div><div class="label"><b>Girl Aesthetic</b><span>soft edits</span></div></article>
+  <article class="card"><div class="art c6"><div><h3>Dark Mood</h3><small>edit collection</small></div></div><div class="label"><b>Dark Aesthetic</b><span>night vibes</span></div></article>
+  <article class="card"><div class="art c7"><div><h3>Hellenaw</h3><small>profile identity</small></div></div><div class="label"><b>Profile Ideas</b><span>signature style</span></div></article>
+  <article class="card"><div class="art c8"><div><h3>♡ Main Character</h3><small>moodboard</small></div></div><div class="label"><b>Attitude & Quotes</b><span>mood</span></div></article>
+  <article class="card"><div class="art c9"><div><h3>୨୧ Pretty Things</h3><small>daily inspiration</small></div></div><div class="label"><b>Soft Girl</b><span>aesthetic</span></div></article>
+  <article class="card"><div class="art c10"><div><h3>Hellenaw World</h3><small>creative archive</small></div></div><div class="label"><b>Creator Inspiration</b><span>ideas</span></div></article>
+</div>
+</section>
+
+<section class="collection" id="saved">
+<div class="collectionbox">
+<div><div style="letter-spacing:3px;font-size:9px;color:#c7ada0">THE SAVED SIDE</div><h2>My Saved World ♡</h2><p>A curated little corner for the things that feel like Hellenaw — aesthetic covers, flowers, edits, feminine moods, quotes and everything worth saving.</p></div>
+<div class="minirow">
+<div class="mini"><strong>𐙚 Aesthetic</strong><small>soft · clean · dreamy</small></div>
+<div class="mini"><strong>୨୧ Girl Things</strong><small>pretty little details</small></div>
+<div class="mini"><strong>☾ Dark Mood</strong><small>late night energy</small></div>
+<div class="mini"><strong>✦ Inspiration</strong><small>create your own vibe</small></div>
+</div>
+</div>
+</section>
+
+<section class="collection" id="about">
+<div class="collectionbox" style="background:#eee7e1;color:#241a16">
+<div><div style="letter-spacing:3px;font-size:9px;color:#856c5e">ABOUT THE CREATOR</div><h2>Hellenaw_official143</h2></div>
+<div><p style="color:#6f625b">Digital Creator · Photo & Video Editor · Aesthetic Content</p><p style="color:#6f625b">11k+ followers · 10m+ monthly views</p><p style="color:#6f625b">A website made to feel like a private Pinterest magazine — elegant, feminine and completely Hellenaw. ♡</p></div>
+</div>
+</section>
+
+<footer><span>Hellenaw_official143 𓆩♡𓆪</span><span>Dream · Create · Share</span></footer>
+</body>
+</html>
